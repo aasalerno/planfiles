@@ -1,0 +1,6 @@
+Plans
+* Fix undersampling scheme for cyl. acquisition
+* Work on diffusion direction codes -- ensure that values are the same between MATLAB and Python
+* Check "middle matrix" (M) values for diffusion direction comparison
+
+
