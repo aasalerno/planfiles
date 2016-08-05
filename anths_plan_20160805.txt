@@ -3,4 +3,9 @@ Plans
 * Work on diffusion direction codes -- ensure that values are the same between MATLAB and Python
 * Check "middle matrix" (M) values for diffusion direction comparison
 
++ Undersampling scheme for cyl. acquisition fixed
++ Added in zero-padding ability if acqSize != 2^N 
+	- Would resampling work better?
++ Directional sampling is now fully functional from start to finish
+	- Edited order of dimensions -- standard is now [diff, spatial, spatial] for one slice
 
