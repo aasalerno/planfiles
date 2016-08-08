@@ -1,0 +1,3 @@
+* Ensure the TV and XFM operators work for 3D dstssets
+* Calculate M matrices for each direction, test against MATLAB
+* Check fit solutions for a simple 30 "dirrction"  case, compare against MATLAB
