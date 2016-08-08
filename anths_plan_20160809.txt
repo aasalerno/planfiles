@@ -1,0 +1,4 @@
+* Test least_Squares_Fitting function with a small "directional data" sample. Compare to MATLAB
+* Prepare a checklist/notes for Wednesday's meeting, and do "dry-runs"
+* Attend JC
+

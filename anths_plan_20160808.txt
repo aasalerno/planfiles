@@ -1,3 +1,17 @@
-* Ensure the TV and XFM operators work for 3D dstssets
+* Ensure the TV and XFM operators work for 3D data sets
 * Calculate M matrices for each direction, test against MATLAB
-* Check fit solutions for a simple 30 "dirrction"  case, compare against MATLAB
+* Check fit solutions for a simple 30 "direction"  case, compare against MATLAB
+* Read JC paper for tomorrow
+
++ Checked to ensure that the TV operator works for 3D data (tested 3D spatial) and works well. Best method for XFM would be *external* loop for speed (i.e. not doing logical checks each time)
+	- Commit: 4a47c24ac3c530a23ca59721c6154ea1a436e024
+
++ Edited bits of code, M matricies are now identical to MATLAB
+	- Two issues: 1) Working with directions, best way to handle differences -- should we use the "closer" of the vectors (i.e. dir vs -dir as done in the sampling algorithm)
+		      2) May need to pass more args through after, currently only passing M, but r and inds may be required
+	- Commit: 438fe109763cb797e2b3b1b25c06873ef216d45c
+
++ Fit solutions work as expected. Need to test with the entire code as a whole, but the module works as expected
+	- Commit: 8c49267f9256abf6b51cf64e317dc3907c313803
+	- Commit: 1247b90839890fe7b6288730260356d7a968d2ee
+
