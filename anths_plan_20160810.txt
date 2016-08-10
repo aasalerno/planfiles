@@ -2,3 +2,14 @@
 * Prepare a checklist/notes for Wednesday's meeting, and do "dry-runs"
         ** Possibly make an HTML file for going through the code like RStudio?
 * Meeting
+
++ Changed wavelet operator to use pywt as opposed to rwt
+	+ Commit: 5189379b2bd25bff8f700a355014c02b1be43ee9
+		+ Use pywt.wavedec[ompose]2 and pywt.rec[ompose]2 
+	+ Commit: ad7e42e17b72caaae1e749848975dfccdc7f1f65
+		+ Created funcitons to go from the tuple set given by those functions to matricies
+	- For some reason, dbN where NeZ, N != 1, the size of the tuples does not give the same size as the image... Why?!
+
+- Don't think a checklist is necessary, as Brian's notes will be what we're using.
+
+		
