@@ -1,0 +1,4 @@
+* Fix wavelet operator
+* Prepare a checklist/notes for Wednesday's meeting, and do "dry-runs"
+        ** Possibly make an HTML file for going through the code like RStudio?
+* Meeting

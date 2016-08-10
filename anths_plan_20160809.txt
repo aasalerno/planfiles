@@ -3,4 +3,11 @@
 	** Possibly make an HTML file for going through the code like RStudio?
 * Attend JC
 * Time permitting: Input proper XFM gradient
+* Rewrite wavelet method math for discussion tomorrow
+
++ Tested lsq fit -- built on basis of MATLAB code
+	+ Commit: aeaab25da61af49df245f634cfe2bbffbb0a2ec9
+- Checklist and notes are planned for tomorrow
++ Attended JC
+- XFM Gradient applicaton requires discussion with Brian about how it will be done. We don't have matrix methods for the wavelets, only coefficients
 
