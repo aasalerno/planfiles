@@ -1,0 +1,10 @@
+* Write out an fmincg that handles our conditions better -- i.e. if d^2/dx^2 = 0, then don't use Wolfe Conditions
+	** Done by changing linesearch code to have an "asalerno" condition, as opposed to wolfe12
+* Input a method to use an empirical alpha for our calculations, as opposed to the standard value of alpha used in the optimization code
+* Check what c1, c2, amin, amax are and what their purposes are
+
+~ An option for this might be to either use a simpler backtrack algorithm, or let the l1 norm not be a classic sum(|x|)
+~ Using a different alpha, we need to keep it low (i.e. only use the first condition of the Wolfe conditions)
+~ c1, c2, amin, amax:
+	~ From the wiki article on the Wolfe conditions, c1 and c2 have to do with Wolfe 1 and 2 respectively. They are Armijo's Rule and the curvature condition, respectively
+	~ amin and amax are the bounds for alpha

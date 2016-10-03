@@ -1,0 +1,8 @@
+* Write code for the simple backtracking procedure
+* Test the code and meet with Brian 
+
++ Code written untested, does not utilize _line_search_wolfe12. Also doesn't use MINPACK2, so this will be slower...
+	+ commit: 559903d195a9803d7c447ac1bb9024b3c53f038d -- optimize.py
+	+ commit: 55ecd2b91762d3f948a41c49ea073c5ce1e6a24d -- linesearch.py
+	+ commit: acb33b6cb0ae1eb0491e4fc8c6f1c94c8efb2b2a -- edited both above codes to fix an error
+

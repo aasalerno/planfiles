@@ -1,0 +1,24 @@
+Firstly, I apologize for not having noted in this in a while. I should have kept on it, but failed. Thus, I'm attempting to start again today in order to regain the discipline that I require in order to succeed.
+
+Plans
+* Add in a method to ``kickout" using an intensity change system, where the max percentage difference can be dictated by the user. 
+	* Brian wants an OR method, so I will do my best to do it in this fashion
+* Turn off the TV term (for simpleBox) and look at what the images look like in this case. Save this in both .npy and .png formats. Save for an MSE analysis
+	* x0 = im_dc
+	* x0 = im
+	* x0 = 0
+* Turn off the XFM term (for simpleBox) and look at what the images look like in this case. Save this in both .npy and .png formats. Save for an MS$
+        * x0 = im_dc   
+        * x0 = im
+        * x0 = 0
+* Keep both the TV and XFM terms (for simpleBox) and look at what the images look like in this case. Save this in both .npy and .png formats. Save for an M$
+        * x0 = im_dc
+        * x0 = im 
+        * x0 = 0 
+* Create figures showing the differences (MSE) for each of the x0 cases from the true image.
+	* Do this for both the raw case and the shifted and scaled version
+
+
+
+
+
