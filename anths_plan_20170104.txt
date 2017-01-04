@@ -1,0 +1,9 @@
+Need to start doing this again for personal work. Need to keep on top of it to ensure that I will be successful in my M.Sc.
+
+Plans
+  * Test gradients for all functions, currently with the exception of the directional term of the TV [TVdir]
+  * Recode TVdir to work with the scipy lsq function
+    --- As an aside to this, test how long it takes in comparison to the current method, and see if there is a way to pass the "middle" matrix, as we do...
+  * Read more on the different functions that we can use for the optimization as found:
+    http://sebastianruder.com/optimizing-gradient-descent/index.html#stochasticgradientdescent
+  
