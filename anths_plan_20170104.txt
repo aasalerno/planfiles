@@ -7,3 +7,7 @@ Plans
   * Read more on the different functions that we can use for the optimization as found:
     http://sebastianruder.com/optimizing-gradient-descent/index.html#stochasticgradientdescent
   
+  + Seems like there are some issues with either the gradients or how I'm testing them
+    ~ I'm using (f(x+h)-f(x-h))/2h to calculate the numerical derivative at a certain point (note that the direction that im looking at is [1,1,...,1]' as I'm merely adding h to the function, as it should be fine with any direction that is calculated
+  - Haven't been able to do this -- the recoding will be done tomorrow
+  + Lightly read this, may look into it more after talking to Brian more about it...
