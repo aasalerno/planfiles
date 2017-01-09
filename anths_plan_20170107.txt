@@ -1,0 +1,7 @@
+Plans:
+  * Write a function to test using wavelet space within the function as opposed to image space within the functions
+    --- Will have to ensure that the gradient functions are correct for this specific case as there are changes that are made
+  * Recode TVdir to work with the scipy lsq function
+    --- As an aside to this, test how long it takes in comparison to the current method, and see if there is a way to pass the "middle" matrix, as we do...
+
+

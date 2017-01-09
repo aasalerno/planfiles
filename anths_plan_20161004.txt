@@ -1,17 +1,6 @@
 Plans
 
-* Turn off the TV term (for SheppLogan) and look at what the images look like in this case. Save this in both .npy and .png formats$
-        * x0 = im_dc
-        * x0 = im
-        * x0 = 0
-* Turn off the XFM term (for SheppLogan) and look at what the images look like in this case. Save this in both .npy and .png format$
-        * x0 = im_dc
-        * x0 = im
-        * x0 = 0
-* Keep both the TV and XFM terms (for SheppLogan) and look at what the images look like in this case. Save this in both .npy and .p$
-        * x0 = im_dc
-        * x0 = im
-        * x0 = 0
+* Create an MSE function that can look at the MSE for each solution compared to the gold standard
 * Create an option within the code to look at the MSE for each step within the code to look at how successful the code is per iteration, and attempt to look at how many iterations we actually need
 * Meeting with Brian!
-
+* Look further into correct methods of analyzing differences between function values

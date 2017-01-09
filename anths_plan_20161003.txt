@@ -17,8 +17,12 @@ Plans
         * x0 = 0 
 * Create figures showing the differences (MSE) for each of the x0 cases from the true image.
 	* Do this for both the raw case and the shifted and scaled version
+* Analyze if tanh is required for the XFM term. Test using all of the different examples of x0
 
 
-
-
-
++ Method of kickout as been added where the line added is (gnorm > gtol or max(abs(xdiff)) > xtol)
+	+ Commit: 5e01d436fc598d8173b43f27a55de7aa312898cf
++ Data saved to /home/asalerno/Documents/pyDirectionCompSense/simpleBoxData/TVOnly
++ Data saved to /home/asalerno/Documents/pyDirectionCompSense/simpleBoxData/XFMOnly-nonTanh
++ Data saved to /home/asalerno/Documents/pyDirectionCompSense/simpleBoxData/TVandXFM
+	+ For all three previous points, this was also done for the Shepp Logan phantom
