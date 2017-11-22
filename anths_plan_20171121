@@ -1,12 +1,20 @@
 To do:
 
 1) Begin writing about different phase corrections that need to be applied
-	a) Reason as to why --> from Fourier Transform properties
+	a) Reason as to why --> from Fourier Transform properties 
 	b) All of the different phase corrections that are necessary
 	c) Ask Brian/Leigh exactly how their RARE phase correction works
 2) Meeting with Brian
 	a) Try to finish the RARE Phase Correction
-	b) Chat about simplicity of moving the US acquisitions to the Bruker
-	c) Chat about US in EPI?
 3) Read "Wine" by Lessing
 
+
+Done:
+
+1) Writing about phase corrections
+	a) Fourier Transform property inserted -- along with explination
+	b) All different corrections listed -- NOT FULLY EXPLAINED YET
+	c) Not Completed.
+2) Done.
+	a) Issue with GROF in the phase correction data. Reacquiring on 11/22/2017
+3) Read. It's an odd one.
