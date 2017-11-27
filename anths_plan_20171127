@@ -6,3 +6,9 @@ To do:
 4) Run undersampled dti scan at around 1
 5) Look into python gui potential
 
+Done:
+1) Fixed -- exactly 500 words. Sent to Jon
+2) Done -- should get Elisa to edit. To me it seems that it isn't due until the 19th...
+3) Data running providing all images.
+4) Running. 7min 11sec per undersampled fid. ~30 min per fully sampled fid
+5) Seems to be working okay -- need to fiddle with this more
