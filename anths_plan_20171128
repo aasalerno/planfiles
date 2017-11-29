@@ -1,4 +1,12 @@
 To do:
 
-1) DTI Specific calculations?
+1) Check data -- phasecorr
+2) Check the phase corrections
+
+
+Done:
+
+1) Yep. Caused some crazy issues with Vnmrj -- fixed
+2) Need to edit how some stuff is done
+
 
