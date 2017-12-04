@@ -1,0 +1,15 @@
+To do:
+
+1) 	a) Go through the phase correction code and apply the code in the "k-space projection" method
+	b) If that works, apply it to a bunch of different coils and directions for testing purposes -- recall that when applying this, all we really care about is kTmod and imTmod -- the ones that it came from, one will look good, the other will not. 
+2) Go through the comspy code and ensure that the TV and the gTV have the directional part attached for use
+3) Try to figure out what's happening with the Bruker with Lily -- get a flowmeter from the Agilent setup
+4) Add up hours for York U secondary and submit it!
+
+Done:
+1) a) This is fast -- AND SEEMS TO WORK!
+   b) Seems to be a big issue with the data -- don't know where it's centered!
+2) Was already done! Should work on the fly already. Can't test as phase corrections still having issues. :'(
+3) Couldn't find a flowmeter with the proper connectors...
+4) Submitted.
+

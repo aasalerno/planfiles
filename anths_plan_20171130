@@ -1,6 +1,19 @@
 To do:
 
-1) Fill magnet with N2
-2) Run and test phase correction code on fully sampled 120 direction data 
-3) Read in undersampled data -- go over PC w Brian?
-4) Finish Teachers College Application
+1) Fill magnet with N2 and read off Bruker data for magnet log
+2) MR Meeting at 11 -- discuss connectors and plan for tomorrow on Bruker wrt dying mice -- flow of scavenging tube
+3) Look into coils that are "jumpy" downstairs
+4) Run and test phase correction code on fully sampled 120 direction data 
+5) Read in undersampled data -- go over PC w Brian?
+6) Finish Teachers College Application
+
+
+Done:
+
+1) Magnet filling as of 9:30. Bruker data will be read around 10:30. Both complete as of 10:36
+2) During meeting we noted that I have to fix some jumpiness issues with some of the coils in the basket and analyze flow tomorrow with Lily on the Bruker.
+3) Fixed. Main issue was them being offset from their central capacitence locations
+4) - Noticed a bug in the 120 direction data collection scheme -- there was a -1 in a mapping that already took place via the list. Corrected.
+   - Also seem to have banding issues. in the data. The post PC corrections don't look as good as I would have hoped.
+4) Didn't get to do this but we went through some more PC analysis
+5) Maybe do this when I get home -- have to figure out how they want me to calculate the hours...
