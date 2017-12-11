@@ -1,5 +1,12 @@
 To do:
 
 1) Run code in its current state for fully sampled data to act as a check for the undersampling case
-2) Look into methods of fixing the pbase calculations for the kspace data that we have. Bote that I have to now save two versions of k-space. One before checkerboard and one after
-3) Finish reading paper and meet with Ben to chat about discussion points 
+2) Look into methods of fixing the pbase calculations for the kspace data that we have. Note that I have to now save two versions of k-space. One before checkerboard and one after
+3) Finish reading paper and meet with Ben to chat about discussion points
+
+Done:
+Computers were down for a good chunk of the morning.
+
+1) The fov shifts are *still off* -- I'm not quite sure as to why they're working for some coilsand not others... So, this has to be corrected first. Coil 5 (imouse=6) seemed to be working fine...
+2) Spent time looking into fixing 1 -- thought of a pretty good idea on how to implement it, but it involves looping which is slower than I would like, but essentially, I'd feed it a [ndir,2,nv2,nv] phase correction table, with each of the two ohases, or a 3 with the b0 phase on the first one.
+3) Done :) 

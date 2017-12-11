@@ -1,5 +1,10 @@
 To do
 1) Try to figure out where the data is supposed to be for the undersampled dataset...
-2) Look into how the pohase correction data is being applied (the fully sampled b0s dont even look that good... - could be due to where they are in the image, though)
-3) Fix up how the undersampled data is pre-processed. Look into the best method to newly determine the sampling mask (due to shifts and whatnot -- necessary for applying data sharing)
+2) Look into how the phase correction data is being applied ot the US data (the fully sampled b0s dont even look that good... - could be due to where they are in the image, though)
+3) Fix up how the undersampled data is pre-processed. Look into the best method to newly determine the sampling mask from the values within the PE table --> how do they align now (due to shifts and whatnot -- necessary for applying data sharing)
 4) If we can get all that done, apply pre-processing to all data, and write to numpy files (may split by slice in the readout after RO fft) to be reconstructed by the CS algorithm. 
+5) Edit essay again after getting it back from Ashkan -- edited in the morning, if AA gets it back to us by tonight, otherwise final edits tomorrow.
+
+Done:
+1) Applied shifts -- looks like the FOV shifts should be applied without the phase_ramp, but it also seems like the phase ramp isn't particularly doing much...
+2) Data still looks a bit fuzzy and I'm not quite sure why...
