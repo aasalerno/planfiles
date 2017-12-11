@@ -1,0 +1,5 @@
+To do:
+
+1) Run code in its current state for fully sampled data to act as a check for the undersampling case
+2) Look into methods of fixing the pbase calculations for the kspace data that we have. Bote that I have to now save two versions of k-space. One before checkerboard and one after
+3) Finish reading paper and meet with Ben to chat about discussion points 
