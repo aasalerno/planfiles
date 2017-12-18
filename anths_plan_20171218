@@ -1,0 +1,12 @@
+To do:
+
+1) Read Leigh's paper
+2) Go through the codes to ensure I get exactly how the phase are being applied
+3) Implement the proper phase calculations into the data consistency objective function and its gradient -- need to make sure that it's applied correctly though, as it's a bit of an odd system to apply it -- this could be done via the phase being in one array, laid out based on how the data should be 
+4) Start on the "what to do for my thesis" list.
+
+Done:
+1) Read it enough -- will cite
+2) I think I get it - I don't think I need to actually do a double phase calculation, why would we push it towards this bad solution...
+3) See above
+4) Done. 
